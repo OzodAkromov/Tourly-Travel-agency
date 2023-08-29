@@ -452,3 +452,19 @@ h3 {
 .popular-card :is(.card-subtitle, .card-title) > a{ color: inherit; }
 
 .popular .btn { margin-inline: auto; }
+
+/* #PACKAGES */
+
+.package { padding-block: var(--section-padding); }
+
+.package-list { margin-bottom: 40px; }
+
+.package-list > li:not(:last-child) {  margin-bottom: 30px; }
+
+.package-card {
+  background: var(--cultured);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.package-card .card-banner { height: 250px; }
