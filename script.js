@@ -24,7 +24,11 @@ const navToggleEvent = function (elem) {
 navToggleEvent(navElemArr);
 navToggleEvent(navLinks);
 
-// header sticky
+
+
+/**
+ * header sticky & go to top
+ */
 
 const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
